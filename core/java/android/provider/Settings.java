@@ -111,6 +111,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
@@ -5989,6 +5990,13 @@ public final class Settings {
          */
         public static final String UNREAD_NOTIFICATION_DOT_INDICATOR =
                 "unread_notification_dot_indicator";
+
+        /**
+         *  Enable statusbar double tap gesture on to put device to sleep
+         *  0 = 0ff, 1 = on
+         * @hide
+         */
+        public static final String DOUBLE_TAP_SLEEP_GESTURE = "double_tap_sleep_gesture";
 
         /**
          * Controls whether auto-launching media controls is enabled on wearable devices.
